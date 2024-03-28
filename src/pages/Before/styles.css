@@ -1,0 +1,17 @@
+.before-context {
+  padding: 50px 30px;
+  background: #e6f7ff;
+  border-radius: 16px;
+  margin: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.before-context h1 {
+  margin-bottom: 15px;
+}
+
+.before-context input {
+  margin-bottom: 15px;
+}

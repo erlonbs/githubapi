@@ -1,0 +1,22 @@
+.home-container {
+  background: linear-gradient(180deg, #ffffff 0%, #f7f9fa 100%);
+  height: 100vh;
+  margin-top: 27px;
+}
+
+.home-context {
+  margin-left: 41px;
+}
+
+.home-context h1 {
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.home-context p {
+  font-size: 24px;
+  line-height: 40px;
+  color: #7e7e7e;
+  font-weight: 700;
+}
+
