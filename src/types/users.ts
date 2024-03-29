@@ -6,7 +6,5 @@ export type Users = {
     followers: string;
     location: string;
     name : string;
-
-
   }
 

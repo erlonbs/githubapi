@@ -1,4 +1,5 @@
 import { Users } from "../../types/users";
+import "./styles.css";
 
 const ResultCard = ({
   login,
@@ -24,28 +25,31 @@ const ResultCard = ({
         <div className="img-result">
           <img src={avatar_url} alt="Imagem do Github" />
         </div>
-        <form className="formulario" action="">
-          <h1>Informações</h1>
-          <input
-            type="text"
-            name="perfil"
-            value={html_url}
-            placeholder="Perfil"
-          />
-          <input
-            type="text"
-            name="seguidores"
-            value={followers}
-            placeholder="Seguidores"
-          />
-          <input
-            type="text"
-            placeholder="Localidade"
-            name="localidade"
-            value={location}
-          />
-          <input type="text" placeholder="Nome" name="nome" value={name} />
-        </form>
+        <div className="result-form">
+          <form className="formulario" action="">
+            <h1>Informações</h1>
+            <input
+              className="perfil-user"
+              type="text"
+              name="perfil"
+              value={html_url}
+              placeholder="Perfil"
+            />
+            <input
+              type="text"
+              name="seguidores"
+              value={followers}
+              placeholder="Seguidores"
+            />
+            <input
+              type="text"
+              placeholder="Localidade"
+              name="localidade"
+              value={location}
+            />
+            <input type="text" placeholder="Nome" name="nome" value={name} />
+          </form>
+        </div>
       </section>
     </div>
   );

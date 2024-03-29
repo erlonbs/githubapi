@@ -33,10 +33,10 @@ const After = () => {
           login={`${usuario.login}`}
           id={`${usuario.id}`}
           avatar_url={usuario.avatar_url}
-          html_url={usuario.html_url}
-          followers={usuario.followers}
-          location={usuario.location}
-          name={usuario.name}
+          html_url={`Perfil:  ${usuario.html_url}`}
+          followers={`Seguidores: ${usuario.followers}`}
+          location={`Localidade: ${usuario.location}`}
+          name={`Nome: ${usuario.name}`}
         />
       )}
     </>

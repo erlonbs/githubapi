@@ -1,17 +1,14 @@
-.nav-container{
-    background: #1890FF;
-    color: #FFFFFF;
-    height: 62px;
-   
-
+.nav-container {
+  background: #1890ff;
+  color: #ffffff;
+  height: 62px;
 }
 
-.nav-container h1{
-
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 32px;
-    margin-left: 41px;
-    padding-top: 15px;
-    align-items: center;
+.nav-container h1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-left: 41px;
+  padding-top: 15px;
+  align-items: center;
 }
